@@ -665,7 +665,7 @@ def send_to_email(
 
         # 设置邮件主题
         now = get_time_func() if get_time_func else datetime.now()
-        subject = f"每日信息摘要 - {now.strftime('%m月%d日')}"
+        subject = f"CBB每日信息摘要 - {now.strftime('%m月%d日')}"
         msg["Subject"] = Header(subject, "utf-8")
 
         # 设置其他标准 header
