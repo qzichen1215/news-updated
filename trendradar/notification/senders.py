@@ -653,7 +653,7 @@ def send_to_email(
         msg = MIMEMultipart("alternative")
 
         # 严格按照 RFC 标准设置 From header
-        sender_name = "TrendRadar"
+        sender_name = "CBBDaily"
         msg["From"] = formataddr((sender_name, from_email))
 
         # 设置收件人
